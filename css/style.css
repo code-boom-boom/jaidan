@@ -1,0 +1,567 @@
+/*********************************************************************       
+    MARRKETING BANNER   
+*********************************************************************/
+
+    #mkt-banner {
+        margin-top: -21px;
+        position: relative;
+        background-color: transparent;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        overflow: hidden;
+    }
+
+
+    .mktb-standard .mktb-mobile-bk {
+        display: block;
+        width: 100%;
+        height: 400px;
+        position: relative;
+        background-color: transparent;
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .mktb-standard.mktb-default .mktb-mobile-bk {
+        height: 250px;
+    }
+
+    .mktb-standard .mktb-bk {
+        display: none;
+    }
+
+    .mktb-standard .container {
+        position: relative;
+        height: auto;
+        margin-top: -400px;
+    }
+
+    .mktb-standard.mktb-default .container {
+        margin-top: 0;
+    }
+
+    #mkt-banner .logo-abs-cont {
+        background: #fff;
+        padding: 15px;
+    }
+
+#mkt-banner.mktb-standard .logo-abs-cont {
+    bottom:auto;
+    top: 250px;
+    left:15px;
+}
+
+#mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+    top: 0;
+    left: 0;
+}
+
+#mkt-banner .logo-abs-cont {
+    padding: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+    #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+        position: relative;
+        text-align: center;
+    }
+
+    #mkt-banner .logo-abs-cont img {
+        height: 50px;
+        width: auto;
+    }
+
+    .mktb-standard .mktbs-call-out {
+        background-color: #fff;
+        margin: 250px 15px 0;
+        padding: 32px 15px 30px;
+/*        border-bottom-width: 5px;
+        border-bottom-style: solid;
+        border-bottom-color:#5f7800;*/
+        -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+        -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+        box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+    }
+
+    .mktb-standard .bar-btm {
+        width: 100%;
+        height: 3px;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        margin-left: -20px;
+    }
+
+    .mktb-standard .mktbs-call-out .mktbs-title {
+        color: black;
+        font-size: 26px;
+        line-height: 31px;
+        font-weight: bold;
+        margin: 45px 0 20px;
+        display: block;
+    }
+
+    .mktbs-title h1{
+        font-size: inherit;
+        color: inherit;
+        margin: inherit;
+        line-height: inherit;
+    }
+
+    .mktb-standard .mktbs-call-out p {
+        color: #000;
+        margin: 0;
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    a.btn-pp {
+        color: #fff;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 15px;
+        padding: 7px 18px;
+        border-width: 2px;
+        border-style: solid;
+        -webkit-transition: all .25s;
+        transition: all .25s;
+    }
+
+        a.btn-pp:hover {
+            background-color: #fff;
+        }
+
+    .dark-text a.btn-pp {
+        color: #000;
+    }
+
+
+    #mkt-banner-lines {
+        margin-top: -21px;
+    }
+
+    .mktb-lines .top-line {
+        height: 10px;
+        width: 100%;
+        display: block;
+    }
+
+    .mktb-lines .btm-line {
+        height: 8px;
+        width: 100%;
+        display: block;
+    }
+
+
+    .mktb-lines .img-ves img {
+        display: block;
+        padding: 13px 0 7px;
+        margin: 0 auto;
+        height: 75px;
+    }
+
+    @media only screen and (min-width:768px) {
+        .mktb-standard.mktb-default .container {
+            margin-top: -50px;
+            padding-bottom: 0;
+        }
+
+        .mktb-standard .mktb-mobile-bk {
+            display: none;
+        }
+
+        .mktb-standard .mktb-bk {
+            display: block;
+            width: 100%;
+            height: 400px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: transparent;
+            background-position: center center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #mkt-banner .logo-abs-cont {
+            bottom: initial;
+            top: 250px;
+            left: 15px;
+        }
+
+        #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+            left: auto;
+        }
+
+        .mktb-standard.mktb-animation .mktb-bk {
+            height: 500px;
+        }
+
+        .mktb-standard.mktb-default .mktb-bk {
+            height: 250px;
+        }
+
+        .mktb-standard .container {
+            position: relative;
+            height: 400px;
+            margin-top: 0;
+            padding-bottom: 0;
+            overflow: hidden;
+        }
+
+        .mktb-standard.mktb-animation .container {
+            height: 500px;
+        }
+
+
+        .mktb-standard.mktb-default .container {
+            height: 250px;
+            margin-top: 0;
+        }
+
+
+
+        .mktb-standard .mktbs-call-out {
+            background-color: rgba(255,255,255,.90);
+            width: 55%;
+            margin: 0 0 0 15px;
+            position: absolute;
+            padding: 20px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        #mkt-banner.mktb-standard.mktb-default .logo-abs-cont {
+            position: absolute;
+            text-align: left;
+        }
+
+        #mkt-banner .logo-abs-cont {
+            background: #fff;
+            padding: 15px 25px;
+            position: absolute;
+            top: 0;
+            right: 10px;
+            left: auto;
+            -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+            -moz-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+            box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.25);
+        }
+
+        #mkt-banner.mktb-standard .logo-abs-cont {
+            bottom:auto;
+            top: 0;
+            left: auto;
+        }
+
+            #mkt-banner .logo-abs-cont img {
+                height: 50px;
+                max-height: none;
+                width: auto;
+                max-width: none;
+            }
+
+        .mktb-standard .mktbs-call-out .mktbs-title {
+            margin: 0 0 20px;
+        }
+
+        .mktb-lines .img-ves img {
+            float: right;
+            margin: 0 20px 0 0;
+        }
+    }
+
+    @media only screen and (min-width:992px) {
+        .mktb-standard .mktbs-call-out {
+            width: 45%;
+        }
+
+        #mkt-banner {
+            margin-top: -14px;
+        }
+
+        .mktb-standard .mktbs-call-out {
+            top: 47%;
+            transform: translateY(-50%);
+        }
+
+        #mkt-banner.mktb-lines {
+            margin-bottom: 25px;
+        }
+
+        .mktb-lines .top-line {
+            height: 6px;
+        }
+
+        .mktb-lines .btm-line {
+            height: 8px;
+        }
+    }
+
+    @media only screen and (min-width:1200px) {
+        .mktb-standard .mktbs-call-out {
+            width: 40%;
+        }
+    }
+
+
+/* Specific */
+
+.flex {
+    display: flex;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.page-section{
+    margin-top:35px;
+}
+
+.page-section:first-of-type{
+    margin-top:70px;
+}
+
+.sd-form-group{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.sd-form-wrap{
+    
+}
+
+/* Added style */
+.mb-1 {
+    margin-bottom: 1rem !important;
+}
+
+.text-color-gray {
+    color: #55565a !important;
+}
+
+.page-content .ipn-ele {
+    padding: 40px 0;
+}
+
+.page-content .ipn-ele .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+}
+
+label:first-child {
+    margin-top: 0;
+}
+
+input, select, textarea {
+    outline: none;
+}
+
+input[type="text"], input[type="email"], textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #55565a;
+    margin-top: 5px;
+}
+
+input[type="text"], input[type="email"] {
+    height: 45px;
+    line-height: 45px;
+    padding: 0 10px;
+}
+
+.privacy-container {
+    display: flex;
+    gap: 20px;
+}
+
+.privacy-container input {
+    margin-top: 6px;
+}
+
+.input-container.disabled {
+    opacity: .5;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    color: #fff;
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 0;
+    padding: 11px 28px;
+    outline: none;
+}
+
+.input-container.disabled input {
+    cursor: default;
+}
+
+#section-3 {
+    background-color: #acacac;
+}
+
+#section-3 h2 {
+    text-align: center;
+    color: white;
+}
+
+a.btn {
+    display: block;
+    padding: 10px 0;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+}
+
+a.btn-white {
+    background-color: white;
+    color: #acacac;
+}
+
+#section-3 a.btn {
+    width: 100%;
+    max-width: 200px;
+}
+
+#section-4 {
+    background-color: #e6e6e6;
+}
+
+.card-container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+    height: 100%;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.card-container .card-logo {
+    height: 60px;
+}
+
+.card-container .card-btn {
+    font-weight: bold;
+    color: #55565a;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.show {
+    display: block;
+}
+
+.panel {
+    border-radius: 0 !important;
+    border-color: #e6e6e6;
+    box-shadow: none;
+}
+
+.panel-group .panel + .panel {
+    margin-top: 10px;
+}
+
+.panel-heading {
+    padding: 28px;
+    background-color: #e6e6e6 !important;
+    color: #55565a !important;
+}
+
+.panel-title {
+    display: flex;
+    gap: 28px;
+}
+
+.panel-heading a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.panel-icon {
+    width: 24px !important;
+    height: 24px !important;
+    position: relative;
+    transition: .5s;
+}
+
+.panel-icon:before {
+    content: "";
+    width: 24px;
+    height: 4px;
+    background-color: #55565a;
+    position: absolute;
+    top: calc(50% - 2px);
+    left: 0;
+}
+
+.panel-icon:after {
+    content: "";
+    width: 4px;
+    height: 24px;
+    background-color: #55565a;
+    position: absolute;
+    left: calc(50% - 2px);
+    top: 0;
+}
+
+.panel-title[aria-expanded="true"] .panel-icon {
+    transform: rotateZ(45deg);
+}
+
+.h-equal [class*='col-'] {
+    margin-bottom: 40px;
+}
+
+@media only screen and (min-width:768px) {
+    .h-equal {
+        display: flex;
+    }
+
+    .h-equal [class*='col-'] {
+        margin-bottom: 0;
+    }
+}

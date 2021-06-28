@@ -1,0 +1,1285 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+      <title>Starter Template</title>
+      <meta name="Keywords" content="Syngenta, agribusiness">
+      <meta name="Description" content="TEST.">
+      <link href="https://www.syngenta-us.com" hreflang="en-us" rel="alternate">
+
+      <!-- globals -->
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="https://www.syngenta-us.com/css/reset.css">
+      <link rel="stylesheet" type="text/css" href="https://www.syngenta-us.com/css/bootstrap.css">
+      <link rel="stylesheet" type="text/css" href="https://www.syngenta-us.com/css/hf2017.css">
+      <link rel="stylesheet" type="text/css" href="https://www.syngenta-us.com/css/current_style.css">
+      <link rel="stylesheet" type="text/css" href="https://www.syngenta-us.com/_css/styleHome_new.css">
+
+      <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
+      <script src="https://www.syngenta-us.com/js/hf2017.js?version=1.0"></script>
+
+      <!-- page-specific -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <script src="js/script.js"></script>
+
+   </head>
+   <body>
+      <!-- HEADER BEGINS HERE -->
+      <header id="m-menu">
+         <div class="nav-wrapper">
+            <div id="main-header" class="container">
+               <div class="row">
+                  <div class="col-md-2 col-md-push-10">
+                     <div class="mobile-menu visible-xs visible-sm">
+                        <a class="menu-icon" href="#"><span></span><span></span><span></span></a>
+                     </div>
+                     <div class="logo-cont"><a href="http://syngenta-us.com/home.aspx">
+                        <img src="http://syngenta-us.com/templates/images/syngenta-us-logo.jpg" /></a>
+                     </div>
+                  </div>
+                  <div class="col-md-10 col-md-pull-2">
+                     <nav>
+                        <div class="utility-nav">
+                           <ul>
+                              <li><a href="http://syngenta-us.com/labels">Label SDS</a></li>
+                              <li><a href="http://syngenta-us.com/rep-finder">Find Resellers</a></li>
+                              <li><a href="http://www.syngenta.com/">Syngenta Global</a></li>
+                              <li class="search">
+                                 <div class="search-container">
+                                    <span class="search-icon"></span>
+                                    <div class="search-form">
+                                       <input id="txtSearchText" type="text" name="search" onkeydown='javascript:if (event.keyCode==13) return fnResults(this.value);' placeholder="Search" />
+                                    </div>
+                                 </div>
+                              </li>
+                           </ul>
+                        </div>
+                        <div class="main-nav">
+                           <ul>
+                              <li class="visible-xs visible-sm mobile-search">
+                                 <div class="search-form">
+                                    <input type="text" placeholder="Search" />
+                                    <input type="submit" />
+                                 </div>
+                              </li>
+                              <li data-pane="1">
+                                 <a href="#" data-level="1">Crops</a>
+                                 <ul>
+                                    <li><span>Crops</span></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/corn">Corn</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/soybeans">Soybeans</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/cereals">Cereals</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/sugarbeets">Sugarbeets</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/almonds">Almonds</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/citrus">Citrus</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/cotton">Cotton</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/potatoes">Potatoes</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/vegetables">Vegetables</a></li>
+                                 </ul>
+                              </li>
+                              <li data-pane="2">
+                                 <a href="#" data-level="1">Seeds</a>
+                                 <ul>
+                                    <li><span>Golden Harvest</span></li>
+                                    <li><a href="http://www.goldenharvestseeds.com/corn" target="_blank" class="mm-external">Corn</a></li>
+                                    <li><a href="http://www.goldenharvestseeds.com/soybeans" target="_blank" class="mm-external">Soybeans</a></li>
+                                    <li><span>NK</span></li>
+                                    <li><a href="http://www.syngenta-us.com/corn/nk">Corn</a></li>
+                                    <li><a href="http://www.syngenta-us.com/soybeans/nk">Soybeans</a></li>
+                                    <li><span>Seeds Portfolio</span></li>
+                                    <li><a href="http://www.syngenta-us.com/seed">Seeds Homepage</a></li>
+                                    <li><a href="http://www.syngenta-us.com/corn/enogen">Enogen Corn for Ethanol</a></li>
+                                    <li><a href="http://www.syngenta-us.com/agrisure/agrisure-traits.aspx">Agrisure Corn Traits</a></li>
+                                    <li><a href="https://agriprowheat.com/" target="_blank" class="mm-external">AgriPro Wheat</a></li>
+                                    <li><a href="http://www.syngenta-us.com/sugarbeets/hilleshog">Sugarbeets</a></li>
+                                    <li><a href="http://www.syngenta-us.com/p/sunflower-seeds">Sunflowers</a></li>
+                                    <li><a href="http://www.syngenta-us.com/crops/vegetabledetails">Vegetables</a></li>
+                                    <li><a href="http://www.plantnexgrow.com" target="_blank" class="mm-external">Alfalfa</a></li>
+                                    <li><a href="http://www.syngenta-us.com/greenleaf-genetics">GreenLeaf Genetics</a></li>
+                                 </ul>
+                              </li>
+                              <li data-pane="3">
+                                 <a href="#" data-level="1">Crop Protection</a>
+                                 <ul>
+                                    <li><span>Products</span></li>
+                                    <li><a href="http://www.syngentacropprotection.com/cropmain.aspx">Crop Protection Homepage</a></li>
+                                    <li><a href="http://syngenta-us.com/crop-protection/product-search">Product Search</a></li>
+                                    <li><a href="http://syngenta-us.com/crop-protection/seed-treatment">Seed Treatments</a></li>
+                                    <li><a href="http://syngenta-us.com/crop-protection/herbicides/products">Herbicides</a></li>
+                                    <li><a href="http://syngenta-us.com/crop-protection/insecticides/products">Insecticides</a></li>
+                                    <li><a href="http://syngenta-us.com/crop-protection/fungicides/products">Fungicides</a></li>
+                                    <li><a href="http://syngenta-us.com/crop-protection/view-all?tab=producttypes">View All Products</a></li>
+                                    <li><span>Labels</span></li>
+                                    <li><a href="http://www.syngenta-us.com/labels">Label &amp; SDS</a></li>
+                                    <li><a href="http://www.syngenta-us.com/special-labels">Special Labels Search</a></li>
+                                    <li><a href="http://www.farmassist.com/postharvest/mrl/" target="_blank" class="mm-external">Postharvest MRLs</a></li>
+                                    <li><a href="http://farmassist.com/Labels/IndemnifiedLabels.aspx?Menu=Products" target="_blank" class="mm-external">Indemnified Labels</a></li>
+                                 </ul>
+                              </li>
+                              <li data-pane="4">
+                                 <a href="#" data-level="1">Tools &amp; Services</a>
+                                 <ul>
+                                    <li><span>Tools &amp; Services</span></li>
+                                    <li>
+                                       <a href="#" data-level="2">Farm Management</a>
+                                       <ul>
+                                          <li><span>Farm Management</span></li>
+                                          <li><a href="http://www.syngenta-us.com/agriedge/agriedge-excelsior.aspx">AgriEdge</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">News &amp; Blogs</a>
+                                       <ul>
+                                          <li><span>News &amp; Blogs</span></li>
+                                          <li><a href="http://www.syngenta-us.com/thrive/index.html">Thrive Magazine</a></li>
+                                          <li><a href="http://www.knowmoregrowmore.com"  target="_blank" class="mm-external">Know More Grow More<br />
+                                             (Agronomy Blog)</a>
+                                          </li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Market Data</a>
+                                       <ul>
+                                          <li><span>Market Data</span></li>
+                                          <li><a href="http://www.syngenta-us.com/markets/futures?page=quote&sym=c">Commodity Prices</a></li>
+                                          <li><a href="http://www.syngenta-us.com/markets/cash-bids">Cash Bids</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Corn</a>
+                                       <ul>
+                                          <li><span>Corn</span></li>
+                                          <li><a href="http://www.farmassist.com/Tools/Calculators/CalculatorsList.aspx?Menu=Tools">Planting Calculator</a></li>
+                                          <li><a href="http://www.syngenta-us.com/seed-treatment/avicta-complete-corn-learning-module">Avicta Complete Corn Learning Module</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Cereals</a>
+                                       <ul>
+                                          <li><span>Cereals</span></li>
+                                          <a href="http://www.syngenta-us.com/seed-treatment/vibrance-learning-module">Vibrance Learning Module</a>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Sugarbeets</a>
+                                       <ul>
+                                          <li><span>Sugarbeets</span></li>
+                                          <li><a href="http://www.farmassist.com/Tools/Calculators/CalculatorsList.aspx?Menu=Tools">Planting Calculator</a></li>
+                                          <li><a href="http://www.syngenta-us.com/agronomy/sugarbeets/grow-more-sugarbeets">Tools to Grow More Sugar</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Almonds</a>
+                                       <ul>
+                                          <li><span>Almonds</span></li>
+                                          <li><a href="http://www.syngenta-us.com/crops/image/almonds_assets/almond-crop-care-guide.pdf" target="_blank">Crop Care Guides</a></li>
+                                          <li><a href="http://www.syngenta-us.com/crops/Image/almonds_assets/almond-pistachio-disease-ID-guide.pdf" target="_blank">Disease Identification Guides</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Learning Modules</a>
+                                       <ul>
+                                          <li><span>Learning Modules</span></li>
+                                          <li><a href="http://www.syngenta-us.com/fungicides/trivapro-learning-module">Trivapro Learning Module (CEU Credit)</a></li>
+                                          <li><a href="http://www.syngenta-us.com/seed-treatment/vibrance-learning-module/">Vibrance Learning Module (CEU Credit)</a></li>
+                                          <li><a href="http://www.syngenta-us.com/seed-treatment/avicta-complete-corn-learning-module/">Avicta Complete Corn Learning Module</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Subscribed Services</a>
+                                       <ul>
+                                          <li><span>Subscribed Services</span></li>
+                                          <li><a href="http://www.syngenta-us.com/pest-patrol/">Pest Patrol Alerts</a></li>
+                                          <li><a href="https://www.seedcareresourcecenter.com/"  target="_blank" class="mm-external">Seedcare Resource Center</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li data-pane="5">
+                                 <a href="#" data-level="1">Sustainability</a>
+                                 <ul>
+                                    <li><span>Sustainability</span></li>
+                                    <li>
+                                       <a href="#" data-level="2">Global Programs</a>
+                                       <ul>
+                                          <li><span>Global Programs</span></li>
+                                          <li><a href="http://www.syngenta-us.com/the-good-growth-plan">The Good Growth Plan</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Product &amp; Food Safety</a>
+                                       <ul>
+                                          <li><span>Product &amp; Food Safety</span></li>
+                                          <li><a href="http://www.atrazine.com/atramain.aspx">Atrazine Herbicide</a></li>
+                                          <li><a href="http://www.syngenta-us.com/beehealth">Bee Health</a></li>
+                                          <li><a href="https://gmoanswers.com/" target="_blank" class="mm-external">GMO Answers</a></li>
+                                          <li><a href="http://www4.syngenta.com/who-we-are/food-security" target="_blank" class="mm-external">Food Security</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Partnership &amp; Programs</a>
+                                       <ul>
+                                          <li><span>Partnership &amp; Programs</span></li>
+                                          <li><a href="http://www.syngenta-us.com/sustainability/sustainable-solutions">Sustainable Solutions</a></li>
+                                          <li><a href="http://www.syngenta-us.com/beehealth/operationpollinator.aspx">Operation Pollinator</a></li>
+                                          <li><a href="http://www.syngenta-us.com/herbicides/resistance-fighter">Resistance Fighter<br />
+                                             (Weed Management)</a>
+                                          </li>
+                                          <li><a href="http://www.syngentacropprotection.com/env_stewardship">Environmental Stewardship</a></li>
+                                          <li><a href="http://www.deltafarm.org" target="_blank" class="mm-external">Delta F.A.R.M.</a></li>
+                                          <li><a href="http://www.mamaadafoundation.org" target="_blank" class="mm-external">Mama Ada Foundation</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li data-pane="6">
+                                 <a href="#" data-level="1">Lawn &amp; Garden</a>
+                                 <ul>
+                                    <li><span>Lawn &amp; Garden</span></li>
+                                    <li><a href="http://www.syngentaprofessionalproducts.com/ppmain.aspx" target="_blank" class="mm-external">Lawn &amp; Garden Homepage</a></li>
+                                    <li><a href="http://www.greencastonline.com/wesupportyou/" target="_blank" class="mm-external">Industry Support</a></li>
+                                    <li>
+                                       <a href="#" data-level="2">Turf &amp; Landscape</a>
+                                       <ul>
+                                          <li><span>Turf &amp; Landscape</span></li>
+                                          <li><a href="http://www.greencastonline.com/prod/index.aspx" target="_blank" class="mm-external">Product Selector</a></li>
+                                          <li><a href="http://www.greencastonline.com/labels/labelsearch.aspx" target="_blank" class="mm-external">Labels &amp; SDS</a></li>
+                                          <li><a href="http://www.greencastonline.com/golf" target="_blank" class="mm-external">Golf</a></li>
+                                          <li><a href="http://www.greencastonline.com/lawn" target="_blank" class="mm-external">Lawn &amp; Landscape</a></li>
+                                          <li><a href="http://www.greencastonline.com/turf" target="_blank" class="mm-external">Sports Turf Management</a></li>
+                                          <li><a href="http://www.greencastonline.com/aquatics" target="_blank" class="mm-external">Aquatics</a></li>
+                                          <li><a href="http://www.greencastonline.com/greentrust365" target="_blank" class="mm-external">GreenTrust 365</a></li>
+                                          <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Ornamental Controls</a>
+                                       <ul>
+                                          <li><span>Ornamental Controls</span></li>
+                                          <li><a href="http://www.greencastonline.com/prod/ornamentalindex.aspx" target="_blank" class="mm-external">Product Selector</a></li>
+                                          <li><a href="http://www.greencastonline.com/labels/labelsearch.aspx" target="_blank" class="mm-external">Labels &amp; SDS</a></li>
+                                          <li><a href="http://www.greencastonline.com/techsearch.aspx" target="_blank" class="mm-external">Tools &amp; Resources</a></li>
+                                          <li><a href="http://www.greencastonline.com/greentrust365/ornamental-overview.aspx" target="_blank" class="mm-external">GreenTrust 365</a></li>
+                                          <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Flowers, Home &amp; Garden</a>
+                                       <ul>
+                                          <li><span>Flowers, Home &amp; Garden</span></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Seeds</a></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Vegetative</a></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Home, Garden Vegetables</a></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Professional Pest Management</a>
+                                       <ul>
+                                          <li><span>Professional Pest Management</span></li>
+                                          <li><a href="http://www.syngentapmp.com/prodrender/default.aspx" target="_blank" class="mm-external">Product Selector</a></li>
+                                          <li><a href="http://www.syngentapmp.com/labels/labelsearch.aspx" target="_blank" class="mm-external">Labels &amp; SDS</a></li>
+                                          <li><a href="http://www.syngentapmp.com/residential" target="_blank" class="mm-external">Residential Pest Control</a></li>
+                                          <li><a href="http://www.syngentapmp.com/commercial" target="_blank" class="mm-external">Commercial Pest Control</a></li>
+                                          <li><a href="http://www.syngentapmp.com/farm" target="_blank" class="mm-external">Farm Pest Control</a></li>
+                                          <li><a href="http://www.syngentapmp.com/pestpartners365" target="_blank" class="mm-external">Pest Partners 365</a></li>
+                                          <li><a href="http://www.syngentapmp.com/contactus" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li data-pane="7">
+                                 <a href="#" data-level="1">Contact Us</a>
+                                 <ul>
+                                    <li><span>Contact Us</span></li>
+                                    <li>
+                                       <a href="#" data-level="2">Local Support</a>
+                                       <ul>
+                                          <li><span>Local Support</span></li>
+                                          <li><a href="http://www.syngenta-us.com/rep-finder?crop=crop-protection&co=RT">Find a Local Retailer</a></li>
+                                          <li><a href="http://www.goldenharvestseeds.com/seed-advisor">Find a Golden Harvest Seed Advisor</a></li>
+                                          <li><a href="http://www.syngenta-us.com/rep-finder?crop=seeds&co=SR">Find a Syngenta Seeds Sales Rep</a></li>
+                                          <li><a href="http://www.syngenta-us.com/rep-finder?crop=crop-protection&co=SR">Find a Syngenta Crop Protection Sales Rep</a></li>
+                                          <li><a href="https://syngentaconnect.force.com/CropEdgeNKCommunity" target="_blank" class="mm-external">CropEdge</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Product Support</a>
+                                       <ul>
+                                          <li><span>Product Support</span></li>
+                                          <li><a href="http://www.syngenta-us.com/labels/default.aspx">Download Labels/SDS</a></li>
+                                          <li><a href="http://www.syngentacropprotection.com/contact/contactus.aspx">Contact Crop Protection Technical Support</a></li>
+                                          <li><a href="http://www.syngenta-us.com/crop-protection/view-all">Find Crop Protection Products</a></li>
+                                          <li><a href="http://www.syngenta-us.com/seed">Find Seed Products</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Corporate Information</a>
+                                       <ul>
+                                          <li><span>Corporate Information</span></li>
+                                          <li><a href="http://www.syngenta-us.com/about-us/default.aspx">About Syngenta</a></li>
+                                          <li><a href="http://www.syngentajobs.com/?support=1" target="_blank" class="mm-external">Careers</a></li>
+                                          <li><a href="http://www.syngenta-us.com/scholarships/default.aspx">Scholarship and Internships</a></li>
+                                          <li><a href="http://www.syngenta-us.com/newsroom/home.aspx">Media</a></li>
+                                          <li><a href="http://www4.syngenta.com/" target="_blank" class="mm-external">Syngenta Global</a></li>
+                                       </ul>
+                                    </li>
+                                    <li>
+                                       <a href="#" data-level="2">Lawn &amp; Garden</a>
+                                       <ul>
+                                          <li><span>Lawn &amp; Garden</span></li>
+                                          <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Golf, Lawn &amp; Sports Turf</a></li>
+                                          <li><a href="http://www.syngentapmp.com/contactus/general" target="_blank" class="mm-external">Pest Management</a></li>
+                                          <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Aquatics</a></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/Pages/AgentSearch.aspx" target="_blank" class="mm-external">Vegetative Flowers</a></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/Pages/AgentSearch.aspx" target="_blank" class="mm-external">Seed Flowers</a></li>
+                                          <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Ornamental Controls</a></li>
+                                          <li><a href="http://www.syngentaflowers.com/country/us/en/Pages/AgentSearch.aspx" target="_blank" class="mm-external">Garden Vegetable Seed</a></li>
+                                       </ul>
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li data-pane="8">
+                                 <a href="#" data-level="1">About Us</a>
+                                 <ul>
+                                    <li><span>Syngenta US</span></li>
+                                    <li><a href="http://www.syngenta-us.com/about-us/default.aspx">What We Do</a></li>
+                                    <li><a href="http://www.syngentajobs.com/" target="_blank" class="mm-external">For Job Seekers</a></li>
+                                    <li><a href="http://www.syngenta-us.com/newsroom/home.aspx">For Media</a></li>
+                                    <li><a href="http://www.syngenta-us.com/scholarships">For Students</a></li>
+                                    <li><span>Syngenta Global</span></li>
+                                    <li><a href="http://www.syngenta-us.com/partnerwithsyngenta">Partner With Syngenta Research &amp; Development</a></li>
+                                    <li><a href="http://www.syngenta-us.com/about/default.aspx">Company Update</a></li>
+                                    <li><a href="http://www4.syngenta.com/" target="_blank" class="mm-external">Syngenta Global Website</a></li>
+                                 </ul>
+                              </li>
+                              <li class="visible-xs visible-sm"><a href="http://www.syngenta-us.com/rep-finder">Find Resellers</a></li>
+                              <li class="visible-xs visible-sm"><a href="http://www.syngenta-us.com/labels">Label SDS</a></li>
+                           </ul>
+                        </div>
+                     </nav>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="mm-cont">
+            <div class="mm-pane pane-1" data-pane="1">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Row Crops</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/crops/corn">Corn</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/soybeans">Soybeans</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/cereals">Cereals</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/sugarbeets">Sugarbeets</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Specialty Crops</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/crops/almonds">Almonds</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/citrus">Citrus</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/cotton">Cotton</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/potatoes">Potatoes</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/vegetables">Vegetables</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 flex-area">
+                        <a class="read-more" href="http://www.syngenta-us.com/thrive/research/gme-local-solutions.html" target="_blank">
+                           <div class="feat-img"></div>
+                           <div class="feat-title">A Site to See</div>
+                           <div class="feat-content">Grow More Experience sites offer expert agronomic knowledge, insight into the latest technologies and hands-on learning tailored to local conditions. <span>Read More >></span></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-2" data-pane="2">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Seeds Portfolio</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/seed">Seeds Homepage</a></li>
+                              <li><a href="http://www.syngenta-us.com/corn/enogen">Enogen Corn for Ethanol</a></li>
+                              <li><a href="http://www.syngenta-us.com/agrisure/agrisure-traits.aspx">Agrisure Corn Traits</a></li>
+                              <li><a href="https://agriprowheat.com/" target="_blank" class="mm-external">AgriPro Wheat</a></li>
+                              <li><a href="http://www.syngenta-us.com/sugarbeets/hilleshog">Sugarbeets</a></li>
+                              <li><a href="http://www.syngenta-us.com/p/sunflower-seeds">Sunflowers</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/vegetabledetails">Vegetables</a></li>
+                              <li><a href="http://www.plantnexgrow.com" target="_blank" class="mm-external">Alfalfa</a></li>
+                              <li><a href="http://www.syngenta-us.com/greenleaf-genetics">GreenLeaf Genetics</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Golden Harvest Corn &amp; Soybeans</span>
+                           <ul>
+                              <li><a href="http://www.goldenharvestseeds.com/corn" target="_blank" class="mm-external">Corn</a></li>
+                              <li><a href="http://www.goldenharvestseeds.com/soybeans" target="_blank" class="mm-external">Soybeans</a></li>
+                           </ul>
+                           <span class="link-heading">NK Corn &amp; Soybeans</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/corn/nk">Corn</a></li>
+                              <li><a href="http://www.syngenta-us.com/soybeans/nk">Soybeans</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 flex-area">
+                        <a class="read-more" href="http://enogencorn.com/"  target="_blank">
+                           <div class="feat-img"></div>
+                           <div class="feat-title">More Value from Each Acre</div>
+                           <div class="feat-content">Enogen® corn enzyme technology creates increased profit potential for corn growers and ethanol producers, adding economic value for local communities. <span>Read More >></span></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-3" data-pane="3">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Products</span>
+                           <ul>
+                              <li><a href="http://www.syngentacropprotection.com/cropmain.aspx">Crop Protection Homepage</a></li>
+                              <li><a href="http://syngenta-us.com/crop-protection/product-search">Product Search</a></li>
+                              <li><a href="http://syngenta-us.com/crop-protection/seed-treatment">Seed Treatments</a></li>
+                              <li><a href="http://syngenta-us.com/crop-protection/herbicides/products">Herbicides</a></li>
+                              <li><a href="http://syngenta-us.com/crop-protection/insecticides/products">Insecticides</a></li>
+                              <li><a href="http://syngenta-us.com/crop-protection/fungicides/products">Fungicides</a></li>
+                              <li><a href="http://syngenta-us.com/crop-protection/view-all?tab=producttypes">View All Products</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Labels</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/labels">Label &amp; SDS Search</a></li>
+                              <li><a href="http://www.syngenta-us.com/special-labels/">Special Labels Search</a></li>
+                              <li><a  href="http://www.farmassist.com/postharvest/mrl/" target="_blank" class="mm-external">Postharvest MRLs</a></li>
+                              <li><a  href="http://farmassist.com/Labels/IndemnifiedLabels.aspx?Menu=Products" target="_blank" class="mm-external">Indemnified Labels</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 flex-area">
+                        <a class="read-more" href="http://www.syngenta-us.com/herbicides/resistance-fighter">
+                           <div class="feat-img"></div>
+                           <div class="feat-title">Outsmart Resistant Weeds This Season</div>
+                           <div class="feat-content">The Resistance Fighter program provides stewardship tips to help you diversify your management program and fight resistant weeds. <span>Read More >></span></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-4" data-pane="4">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Farm Management</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/agriedge/agriedge-excelsior.aspx">AgriEdge</a></li>
+                           </ul>
+                           <span class="link-heading">News &amp; Blogs</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/thrive/index.html">Thrive Magazine</a></li>
+                              <li><a href="http://www.knowmoregrowmore.com"  target="_blank" class="mm-external">Know More Grow More<br />
+                                 (Agronomy Blog)</a>
+                              </li>
+                           </ul>
+                           <span class="link-heading">Market Data</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/markets/futures?page=quote&sym=c">Commodity Prices</a></li>
+                              <li><a href="http://www.syngenta-us.com/markets/cash-bids">Cash Bids</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Corn</span>
+                           <ul>
+                              <li><a href="http://www.farmassist.com/Tools/Calculators/CalculatorsList.aspx?Menu=Tools">Planting Calculator</a></li>
+                              <li><a href="http://www.syngenta-us.com/seed-treatment/avicta-complete-corn-learning-module">Avicta Complete Corn Learning Module</a></li>
+                           </ul>
+                           <span class="link-heading">Cereals</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/seed-treatment/vibrance-learning-module/">Vibrance Learning Module</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Sugarbeets</span>
+                           <ul>
+                              <li><a href="http://www.farmassist.com/Tools/Calculators/CalculatorsList.aspx?Menu=Tools" target="_blank">Planting Calculator</a></li>
+                              <li><a href="http://www.syngenta-us.com/agronomy/sugarbeets/grow-more-sugarbeets">Tools to Grow More Sugar</a></li>
+                           </ul>
+                           <span class="link-heading">Almonds</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/crops/image/almonds_assets/almond-crop-care-guide.pdf" target="_blank">Crop Care Guides</a></li>
+                              <li><a href="http://www.syngenta-us.com/crops/Image/almonds_assets/almond-pistachio-disease-ID-guide.pdf" target="_blank">Disease Identification Guides</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <span class="link-heading">Learning Modules</span>
+                        <ul>
+                           <li><a href="http://www.syngenta-us.com/fungicides/trivapro-learning-module">Trivapro Learning Module (CEU Credit)</a></li>
+                           <li><a href="http://www.syngenta-us.com/seed-treatment/vibrance-learning-module/">Vibrance Learning Module (CEU Credit)</a></li>
+                           <li><a href="http://www.syngenta-us.com/seed-treatment/avicta-complete-corn-learning-module/">Avicta Complete Corn Learning Module</a></li>
+                        </ul>
+                        <span class="link-heading">Subscribed Services</span>
+                        <ul>
+                           <li><a href="http://www.syngenta-us.com/pest-patrol">Pest Patrol Alerts</a></li>
+                           <li><a href="https://www.seedcareresourcecenter.com"  target="_blank" class="mm-external">Seedcare Resource Center</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-5" data-pane="5">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Global Programs</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/the-good-growth-plan">The Good Growth Plan</a></li>
+                           </ul>
+                           <span class="link-heading">Product &amp; Food Safety</span>
+                           <ul>
+                              <li><a href="http://www.atrazine.com/atramain.aspx">Atrazine Herbicide</a></li>
+                              <li><a href="http://www.syngenta-us.com/BeeHealth">Bee Health</a></li>
+                              <li><a href="http://gmoanswers.com" target="_blank" class="mm-external">GMO Answers</a></li>
+                              <li><a href="http://www4.syngenta.com/who-we-are/food-security" target="_blank" class="mm-external">Food Security</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Partnership &amp; Programs</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/sustainability/sustainable-solutions">Sustainable Solutions</a></li>
+                              <li><a href="http://www.syngenta-us.com/beehealth/operationpollinator.aspx">Operation Pollinator</a></li>
+                              <li><a href="http://www.syngenta-us.com/herbicides/resistance-fighter">Resistance Fighter<br />
+                                 (Weed Management)</a>
+                              </li>
+                              <li><a href="http://www.syngentacropprotection.com/env_stewardship">Environmental Stewardship</a></li>
+                              <li><a href="http://www.deltafarm.org" target="_blank" class="mm-external">Delta F.A.R.M.</a></li>
+                              <li><a href="http://www.mamaadafoundation.org" target="_blank" class="mm-external">Mama Ada Foundation</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 flex-area">
+                        <a class="read-more" href="http://www.syngenta-us.com/the-good-growth-plan">
+                           <div class="feat-img"></div>
+                           <div class="feat-title">The Good Growth Plan</div>
+                           <div class="feat-content">We are helping farmers grow more food with fewer resources, while protecting nature and improving life for people in rural communities. <span>Read More >></span></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-6" data-pane="6">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <ul>
+                              <li><a href="http://www.syngentaprofessionalproducts.com/ppmain.aspx" target="_blank" class="mm-external">Lawn &amp; Garden Homepage</a></li>
+                              <li><a href="http://www.greencastonline.com/wesupportyou/" target="_blank" class="mm-external">Industry Support</a></li>
+                           </ul>
+                           <span class="link-heading">Turf &amp; Landscape</span>
+                           <ul>
+                              <li><a href="http://www.greencastonline.com/prod/index.aspx" target="_blank" class="mm-external">Product Selector</a></li>
+                              <li><a href="http://www.greencastonline.com/labels/labelsearch.aspx" target="_blank" class="mm-external">Labels &amp; SDS</a></li>
+                              <li><a href="http://www.greencastonline.com/golf" target="_blank" class="mm-external">Golf</a></li>
+                              <li><a href="http://www.greencastonline.com/lawn" target="_blank" class="mm-external">Lawn &amp; Landscape</a></li>
+                              <li><a href="http://www.greencastonline.com/turf" target="_blank" class="mm-external">Sports Turf Management</a></li>
+                              <li><a href="http://www.greencastonline.com/aquatics" target="_blank" class="mm-external">Aquatics</a></li>
+                              <li><a href="http://www.greencastonline.com/greentrust365" target="_blank" class="mm-external">GreenTrust 365</a></li>
+                              <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Ornamental Controls</span>
+                           <ul>
+                              <li><a href="http://www.greencastonline.com/prod/ornamentalindex.aspx" target="_blank" class="mm-external">Product Selector</a></li>
+                              <li><a href="http://www.greencastonline.com/labels/labelsearch.aspx" target="_blank" class="mm-external">Labels &amp; SDS</a></li>
+                              <li><a href="http://www.greencastonline.com/techsearch.aspx" target="_blank" class="mm-external">Tools &amp; Resources</a></li>
+                              <li><a href="http://www.greencastonline.com/greentrust365/ornamental-overview.aspx" target="_blank" class="mm-external">GreenTrust 365</a></li>
+                              <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                           </ul>
+                           <span class="link-heading">Flowers, Home &amp; Garden</span>
+                           <ul>
+                              <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Seeds</a></li>
+                              <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Vegetative</a></li>
+                              <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Home, Garden Vegetables</a></li>
+                              <li><a href="http://www.syngentaflowers.com/country/us/en/aboutus/pages/contactus.aspx" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Professional Pest Management</span>
+                           <ul>
+                              <li><a href="http://www.syngentapmp.com/prodrender/default.aspx" target="_blank" class="mm-external">Product Selector</a></li>
+                              <li><a href="http://www.syngentapmp.com/labels/labelsearch.aspx" target="_blank" class="mm-external">Labels &amp; SDS</a></li>
+                              <li><a href="http://www.syngentapmp.com/residential" target="_blank" class="mm-external">Residential Pest Control</a></li>
+                              <li><a href="http://www.syngentapmp.com/commercial" target="_blank" class="mm-external">Commercial Pest Control</a></li>
+                              <li><a href="http://www.syngentapmp.com/farm" target="_blank" class="mm-external">Farm Pest Control</a></li>
+                              <li><a href="http://www.syngentapmp.com/pestpartners365" target="_blank" class="mm-external">Pest Partners 365</a></li>
+                              <li><a href="http://www.syngentapmp.com/contactus" target="_blank" class="mm-external">Support &amp; Contacts</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3 flex-area">
+                        <a class="read-more" href="http://www.greencastonline.com/promo/condition-perform-recover/" target="_blank">
+                           <div class="feat-img"></div>
+                           <div class="feat-title">How Do You #ConditionPerformRecover?</div>
+                           <div class="feat-content">Submit a photo for a chance to win $2,500 or other weekly prizes. <span>Read More >></span></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-7" data-pane="7">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Local Support</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/rep-finder?crop=crop-protection&co=RT">Find a Local Retailer</a></li>
+                              <li><a href="http://www.goldenharvestseeds.com/seed-advisor">Find a Golden Harvest Seed Advisor</a></li>
+                              <li><a href="http://www.syngenta-us.com/rep-finder?crop=seeds&co=SR">Find a Syngenta Seeds Sales Rep</a></li>
+                              <li><a href="http://www.syngenta-us.com/rep-finder?crop=crop-protection&co=SR">Find a Syngenta Crop Protection Sales Rep</a></li>
+                              <li><a href="https://syngentaconnect.force.com/CropEdgeNKCommunity" target="_blank" class="mm-external">CropEdge</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Product Support</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/labels/default.aspx">Download Labels/SDS</a></li>
+                              <li><a href="http://www.syngentacropprotection.com/contact-us">Contact Crop Protection Technical Support</a></li>
+                              <li><a href="http://www.syngentacropprotection.com/crop-protection/view-all">Find Crop Protection Products</a></li>
+                              <li><a href="http://www.syngenta-us.com/seed">Find Seed Products</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Corporate Information</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/about-us/default.aspx">About Syngenta</a></li>
+                              <li><a href="http://www.syngentajobs.com/?support=1" target="_blank" class="mm-external">Careers</a></li>
+                              <li><a href="http://www.syngenta-us.com/scholarships/default.aspx">Scholarship and Internships</a></li>
+                              <li><a href="http://www.syngenta-us.com/newsroom/home.aspx">Media</a></li>
+                              <li><a href="http://www4.syngenta.com/" target="_blank" class="mm-external">Syngenta Global</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <span class="link-heading">Lawn &amp; Garden</span>
+                        <ul>
+                           <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Golf, Lawn &amp; Sports Turf</a></li>
+                           <li><a href="http://www.syngentapmp.com/contactus/general" target="_blank" class="mm-external">Pest Management</a></li>
+                           <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Aquatics</a></li>
+                           <li><a href="http://www.syngentaflowers.com/country/us/en/Pages/AgentSearch.aspx" target="_blank" class="mm-external">Vegetative Flowers</a></li>
+                           <li><a href="http://www.syngentaflowers.com/country/us/en/Pages/AgentSearch.aspx" target="_blank" class="mm-external">Seed Flowers</a></li>
+                           <li><a href="http://www.greencastonline.com/help/contact.aspx" target="_blank" class="mm-external">Ornamental Controls</a></li>
+                           <li><a href="http://www.syngentaflowers.com/country/us/en/Pages/AgentSearch.aspx" target="_blank" class="mm-external">Garden Vegetable Seed</a></li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <div class="mm-pane pane-8" data-pane="8">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Syngenta US</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/about-us/default.aspx">What We Do</a></li>
+                              <li><a href="http://jobs.syngenta.com" target="_blank" class="mm-external">For Job Seekers</a></li>
+                              <li><a href="http://www.syngenta-us.com/newsroom/home.aspx">For Media</a></li>
+                              <li><a href="http://www.syngenta-us.com/scholarships">For Students</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-3">
+                        <div class="col-cont">
+                           <span class="link-heading">Syngenta Global</span>
+                           <ul>
+                              <li><a href="http://www.syngenta-us.com/partnerwithsyngenta">Partner With Syngenta Research &amp; Development</a></li>
+                              <li><a href="http://www.syngenta-us.com/about/default.aspx">Company Update</a></li>
+                              <li><a href="http://www.syngenta.com" target="_blank" class="mm-external">Syngenta Global Website</a></li>
+                           </ul>
+                        </div>
+                     </div>
+                     <div class="col-sm-6 flex-area">
+                        <a class="read-more" href="http://www.syngenta-us.com/about-us/default.aspx">
+                           <div class="feat-img"></div>
+                           <div class="feat-title">Our Commitment to US Agriculture</div>
+                           <div class="feat-content">At Syngenta, we are committed to the American farmer’s success. We are dedicated to providing solutions to assist you at every turn in the season. <span>Read More >></span></div>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <a href="#" class="mm-nav mm-left"></a>
+            <a href="#" class="mm-nav mm-right"></a>
+            <a href="#" class="mm-close">x</a>
+         </div>
+      </header>
+      <div class="mm-breadcrumbs hidden-xs hidden-sm">
+         <div class="container">
+            <div class="row">
+               <div class="col-xs-12">
+                  <li>Syngenta US ></li>
+                  <li>Peanut Doctor</li>
+                  <span id="" style="display:none;"></span>
+                  <div id="breadCrumb"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- BEGIN Page Content -->
+      <div class="page-content">
+      <!-- KEEP EDITS BELOW THIS LINE -->
+         <section class="mktb-standard" id="mkt-banner">
+            <div class="mktb-mobile-bk" style="background-image: url('img/600x400.png');">
+                </div>
+            <div class="mktb-bk" style="background-image: url('img/2000x600.png');">
+                </div>
+            <div class="container">
+               <div class="row">
+                  <div class="logo-abs-cont">
+                     <img alt="Acuron Flexi" src="https://assets.syngentaebiz.com/images/prod_logos/acuronflexilogo.svg" /></div>
+                  <div class="mktbs-call-out pc-border">
+                     <h4 class="text-color-gray">Heading Level One</h4>
+                     <span class="mktbs-title">Lorem Ipsum Dolor Sit Amet</span>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Venenatis urna cursus eget nunc scelerisque viverra mauris.
+                     </p>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="section-2" class="ipn-ele">
+            <div class="container text-color-gray">
+               <div class="row">
+                  <div class="col-xs-12 col-lg-6">
+                     <h2>Heading Level Two</h2>
+                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ultrices mi tempus imperdiet nulla malesuada pellentesque. Ipsum a arcu cursus vitae congue mauris. Mauris pellentesque pulvinar pellentesque habitant morbi tristique senectus et netus. Diam in arcu cursus euismod quis viverra nibh cras pulvinar. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Lacus viverra vitae congue eu consequat ac felis donec et. Sed faucibus turpis in eu mi.
+                     </p>
+                  </div>
+                  <div class="col-xs-12 col-lg-6">
+                     <img src="./img/720x480.png" alt="" class="img-responsive">
+                  </div>
+               </div>
+            </div>
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <h2 class="mb-1">Heading Level Two</h2>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="input-container">
+                        <label>
+                           First Name
+                           <input type="text" placeholder="First Name">
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="input-container">
+                        <label>
+                           Last Name
+                           <input type="text" placeholder="Last Name">
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-xs-12">
+                     <div class="input-container">
+                        <label>
+                           Email
+                           <input type="email" placeholder="Email">
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-xs-12">
+                     <div class="input-container">
+                        <label>
+                           Message
+                           <textarea cols="30" rows="5" placeholder="Enter your comments, questions and feedback here."></textarea>
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-xs-12">
+                     <div class="input-container privacy-container">
+                        <input id="privacy" type="checkbox" name="checkbox">
+                        <label for="privacy">
+                           By providing your email address, you are agreeing to receive email communications from Syngenta. We will use your information only in accordance with our <a href="#">privacy policy</a>.
+                        </label>
+                     </div>
+                  </div>
+                  <div class="col-xs-12">
+                     <div class="input-container disabled">
+                        <input type="submit" value="Submit">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="section-3" class="ipn-ele">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 flex-col">
+                     <h2>Explore additional product benefits</h2>
+                     <div class="flex justify-center items-center">
+                        <a href="#" class="btn btn-white">View Field Trials</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="section-4" class="ipn-ele">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12 flex items-center justify-center">
+                     <h2>Related products</h2>
+                  </div>
+               </div>
+               <div class="row h-equal">
+                  <div class="col-xs-12 col-md-6 col-lg-4">
+                     <div class="card-container">
+                        <div class="card-content">
+                           <img src="./img/180x60.png" alt="logo 180x60" class="card-logo">
+                           <p class="card-description">
+                              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Eu augue ut lectus arcu. Eu scelerisque felis imperdiet proin fermentum leo vel orci. Risus feugiat in ante metus dictum. Potenti nullam ac tortor vitae.
+                           </p>
+                        </div>
+                        <a href="#" class="card-btn">View product</a>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-4">
+                     <div class="card-container">
+                        <div class="card-content">
+                           <img src="./img/280x60.png" alt="logo 180x60" class="card-logo">
+                           <p class="card-content">
+                              Feugiat pretium nibh ipsum consequat nisl. In metus vulputate eu scelerisque felis imperdiet proin fermentum. Nulla pharetra diam sit amet nisl. Blandit aliquam etiam erat velit scelerisque in dictum. Purus in massa tempor nec feugiat. Sit amet risus nullam eget felis. Erat nam at lectus urna duis convallis convallis.
+                           </p>
+                        </div>
+                        <a href="#" class="card-btn">View product</a>
+                     </div>
+                  </div>
+                  <div class="col-xs-12 col-md-6 col-lg-4">
+                     <div class="card-container">
+                        <div class="card-content">
+                           <img src="./img/225x60.png" alt="logo 180x60" class="card-logo">
+                           <p class="card-content">
+                              Purus sit amet luctus venenatis. Phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam. Tortor at auctor urna nunc id cursus metus. Curabitur vitae nunc sed velit dignissim sodales ut. Sit amet volutpat consequat mauris nunc congue.
+                           </p>
+                        </div>
+                        <a href="#" class="card-btn">View product</a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="section-5" class="ipn-ele">
+            <div class="container">
+               <div class="row">
+                  <div class="col-xs-12">
+                     <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse1">
+                                 <span class="panel-icon"></span>
+                                 Accordion heading
+                              </a>
+                           </div>
+                           <div id="collapse1" class="panel-collapse collapse in">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                 commodo consequat.</div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                 <span class="panel-icon"></span>
+                                 Accordion heading
+                              </a>
+                           </div>
+                           <div id="collapse2" class="panel-collapse collapse in">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                 commodo consequat.</div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                 <span class="panel-icon"></span>
+                                 Accordion heading
+                              </a>
+                           </div>
+                           <div id="collapse3" class="panel-collapse collapse in">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                 commodo consequat.</div>
+                           </div>
+                        </div>
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <a class="panel-title" data-toggle="collapse" data-parent="#accordion" href="#collapse4">
+                                 <span class="panel-icon"></span>
+                                 Accordion heading
+                              </a>
+                           </div>
+                           <div id="collapse4" class="panel-collapse collapse in">
+                              <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                 sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
+                                 minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                                 commodo consequat.</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </section>
+      <!-- KEEP EDITS ABOVE THIS LINE -->
+      </div>
+      <!-- END Page Content -->
+      <footer>
+         <div class="footer-container">
+            <div class="container">
+               <div class="col-md-2 col-md-offset-1">
+                  <div class="footer-heading">Agriculture</div>
+                  <ul>
+                     <li><a href="http://www.syngenta-us.com/crop-protection/cropmain.aspx">Crop Protection</a></li>
+                     <li><a href="http://www.syngenta-us.com/crop-protection/seed-treatment">Seed Treatments</a></li>
+                     <li><a href="http://www.syngenta-us.com/seed">Seeds</a></li>
+                     <li><a href="http://www.syngenta-us.com/agrisure/agrisure-traits.aspx">Agrisure Corn Traits</a></li>
+                     <li><a href="http://www.syngenta-us.com/corn/enogen">Enogen Corn for Ethanol</a></li>
+                     <li><a href="http://www.syngenta-us.com/agriedge/agriedge-excelsior.aspx">AgriEdge</a></li>
+                     <li><a target="_blank" href="https://twitter.com/SyngentaUS">Twitter (@SyngentaUS)</a></li>
+                     <li><a target="_blank" href="https://www.facebook.com/SyngentaUS">Facebook (SyngentaUS)</a></li>
+                     <li><a target="_blank" href="http://www.youtube.com/c/SyngentaUS">YouTube (SyngentaUS)</a></li>
+                     <li><a target="_blank" href="https://www.instagram.com/syngentaus">Instagram (@SyngentaUS)</a></li>
+                     <li><a data-cke-saved-href="https://twitter.com/NKSeeds" href="https://twitter.com/NKSeeds">Twitter (@NKSeeds)</a></li>
+                     <li><a data-cke-saved-href="https://www.facebook.com/NKSeeds/?ref=br_rs" href="https://www.facebook.com/NKSeeds/?ref=br_rs">Facebook (NKSeeds)</a></li>
+                     <li><a data-cke-saved-href="https://www.youtube.com/channel/UCIR5LXdkn0wfYpoXsdKyXtA" href="https://www.youtube.com/channel/UCIR5LXdkn0wfYpoXsdKyXtA">YouTube (NKSeeds)</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2">
+                  <div class="footer-heading">Professional Solutions</div>
+                  <ul>
+                     <li><a href="http://greencastonline.com/">Turf &amp; Landscape</a></li>
+                     <li><a href="http://syngentapmp.com/">Professional Pest Management</a></li>
+                     <li><a href="https://www.syngentaflowers-us.com/">Flowers, Home &amp; Garden</a></li>
+                     <li><a href="http://www.greencastonline.com/ornamentals">Ornamental Controls</a></li>
+                     <li><a href="http://greencastonline.com/VegeManagementIndex.aspx">Aquatics</a></li>
+                     <li><a target="_blank" href="https://twitter.com/SyngentaTurf">Twitter (@SyngentaTurf)</a></li>
+                     <li><a target="_blank" href="https://www.youtube.com/user/SyngentaTurf">YouTube (SyngentaTurf)</a></li>
+                     <li><a target="_blank" href="https://twitter.com/syngentapest">Twitter (@SyngentaPest)</a></li>
+                     <li><a target="_blank" href="https://www.youtube.com/channel/UCtXjgrjTL1qxLPoMXF6t4Aw">YouTube (SyngentaPest)</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2">
+                  <div class="footer-heading">Sustainability</div>
+                  <ul>
+                     <li><a href="http://www.syngenta-us.com/the-good-growth-plan">The Good Growth Plan</a></li>
+                     <li><a href="http://www.atrazine.com/atramain.aspx">Atrazine Herbicide</a></li>
+                     <li><a href="http://www.syngenta-us.com/beehealth/">Bee Health</a></li>
+                     <li><a href="http://gmoanswers.com/" target="_blank" class="mm-external">GMO Answers</a></li>
+                     <li><a href="http://www4.syngenta.com/who-we-are/food-security" target="_blank" class="mm-external">Food Security</a></li>
+                     <li><a href="http://www.syngenta-us.com/practicing-stewardship">Stewardship</a></li>
+                     <li><a href="http://www.syngenta-us.com/herbicides/resistance-fighter">Resistance Fighter<br>(Weed Management)</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2">
+                  <div class="footer-heading">Contact Us</div>
+                  <ul>
+                     <li><strong>Agriculture</strong></li>
+                     <li><a href="http://www.syngenta-us.com/rep-finder">Find a Reseller</a></li>
+                     <li><a href="http://www.syngenta-us.com/support.aspx">Contacts and Support</a></li>
+                     <li><a href="http://www.syngenta-us.com/labels/">Label SDS</a></li>
+                     <li><a href="https://syngentaconnect.force.com/CropEdgeNKCommunity/s/" target="_blank">CropEdge</a></li>
+                     <li><strong>Professional Solutions</strong></li>
+                     <li><a href="http://greencastonline.com/help/contact.aspx">Golf, Turf, Lawn</a></li>
+                     <li><a href="http://syngentapmp.com/contact/">Pest Management</a></li>
+                     <li><a href="http://greencastonline.com/help/contact.aspx">Aquatics</a></li>
+                     <li><a href="https://www.syngentaflowers-us.com/contactus">Flowers, Home &amp; Garden</a></li>
+                     <li><a href="http://www.greencastonline.com/help/contact.aspx">Ornamental Controls</a></li>
+                  </ul>
+               </div>
+               <div class="col-md-2">
+                  <div class="footer-heading">About Syngenta</div>
+                  <ul>
+                     <li><a href="http://jobs.syngenta.com/">For Job Seekers</a></li>
+                     <li><a href="http://www.syngenta-us.com/Newsroom/Home.aspx">For Media</a></li>
+                     <li><a href="http://www.syngenta-us.com/scholarships/">For Students</a></li>
+                     <li><a href="http://www.syngenta-us.com/partnerwithsyngenta/">Partner with Syngenta</a></li>
+                     <li><a href="http://www.syngenta.com">Syngenta Global Website</a></li>
+                     <li><a href="http://www.linkedin.com/company/syngenta">Syngenta on LinkedIn</a></li>
+                  </ul>
+               </div>
+               <div class="clearfix"></div>
+            </div>
+         </div>                                  
+
+         <div class="container">
+             <div class="legal col-xs-12">
+                 <div>
+                     <a href="https://www.syngenta-us.com/copyright.aspx">©<script>document.write(new Date().getFullYear())</script>&nbsp;Syngenta
+                     </a>
+                 </div>
+                 <div><a href="https://www.syngenta-us.com/legal/useragreement.html">User Agreement</a></div>
+                 <div>
+                     <a href="https://www.syngenta-us.com/legal/privacypolicy.html">Online Privacy Policy
+                     </a>
+                 </div>
+                 <div><a href="https://www.syngenta-us.com/legal/cookiepolicy.html">Cookie Policy</a></div>
+                  <div>
+                     <a href="https://www.syngenta-us.com/legal/SMSpolicy.html">SMS Terms and Conditions
+                     </a>
+                 </div>
+             </div>
+         </div>
+                  
+
+
+          <style>
+              #site-survey {
+              width: 350px;
+              padding: 25px 30px;
+              position: fixed;
+              bottom: -100%;
+              right: 0;
+              -webkit-box-shadow: -16px -4px 30px 0px rgba(0,0,0,0.35);
+              -moz-box-shadow: -16px -4px 30px 0px rgba(0,0,0,0.35);
+              box-shadow: -16px -4px 30px 0px rgba(0,0,0,0.35);
+              -webkit-transition: all 1s ease;
+              -moz-transition: all 1s ease;
+              -o-transition: all 1s ease;
+              -ms-transition: all 1s ease;
+              transition: all 1s ease;
+              z-index: 9999;
+              }
+
+              #site-survey.visible {
+              bottom: 0;
+              }
+
+              #site-survey.syngenta-us {
+              background: rgba(37,127,147,0.95);
+              }
+
+              #site-survey.golden-harvest {
+              background: rgba(231,170,0,0.95);
+              }
+
+              #site-survey.kmgm {
+              background: rgba(71,95,35,0.95);
+              }
+
+              #site-survey.sci {
+              background: rgba(109,180,82,0.95);
+              }
+
+              #site-survey .survey-questions {
+              display: none;
+              }
+
+              #site-survey sup {
+              font-size: 12px;
+              }
+
+              #site-survey h3 {
+              display: block;
+              font-size:18px;
+              font-weight: 400;
+              margin: 15px 0 0;
+              }
+
+              #site-survey.syngenta-us h3, #site-survey.kmgm h3 {
+              color: #fff;
+              }
+
+              #site-survey .form-intro h3 {
+              margin: 0;
+              }
+
+              #site-survey p {
+              margin-bottom: 0;
+              }
+
+              #site-survey.syngenta-us p, #site-survey.kmgm p {
+              color: #fff;
+              }
+
+              #site-survey textarea, #site-survey button {
+              width: calc(100% / 3 - 6px);
+              padding: 5px 0;
+              margin-right: 2px;
+              border-radius: 0;
+              border: none;
+              outline: none;
+              }
+
+              #site-survey textarea, #site-survey select {
+              outline: none;
+              border: none;
+              width: 100%;
+              margin-top: 15px;
+              }
+
+              #site-survey textarea {
+              resize: none;
+              padding: 10px;
+              height: 100px;
+              }
+
+              #site-survey button {
+              background: #fff;
+              margin-top: 20px;
+              cursor: pointer;
+              }
+
+              #site-survey button:first-child {
+              margin-left: 0;
+              }
+
+              #site-survey:not(.syngenta-us) button.active {
+              color: #fff;
+              }
+
+              #site-survey.syngenta-us button.active {
+              background: #78dbf3;
+              }
+
+              #site-survey.golden-harvest button.active {
+              background: #937114;
+              }
+
+              #site-survey.kmgm button.active {
+              background: #2a4209;
+              }
+
+              #site-survey.sci button.active {
+              background: #47882f;
+              }
+
+              #site-survey div.close-button {
+              width: 16px;
+              height: 16px;
+              position: absolute;
+              top: 10px;
+              right: 10px;
+              cursor: pointer;
+              }
+
+              #site-survey div.close-button svg path {
+              fill-rule: evenodd;
+              fill: #000;
+              }
+
+              #site-survey.syngenta-us div.close-button svg path, #site-survey.kmgm div.close-button svg path {
+              fill: #fff;
+              }
+
+              #site-survey .survey-thanks {
+              display: none;
+              }
+          </style>
+          <style>
+              <link rel="stylesheet" type="text/css" href="/survey/css/survey.css" />
+          </style>
+            <div id="formQualtrics" data-survey-id="SV_2mzgmGHdpMCQIYd">
+              <div class="container">
+                  <div id="site-survey" class="syngenta-us">
+                      <div class="form-intro">
+                          <h3>Is this page helpful to you?</h3>
+                          <button type="button" class="btnclick" id="btnYes" value="Yes" name="Yes" data-qid="Q1" data-question="Is this Page Helpful?" data-importid="QID1_TEXT">Yes</button>
+                          <button type="button" class="btnclick" id="btnSortof" value="Sort of" name="Sort of" data-qid="Q1" data-question="Is this Page Helpful?" data-importid="QID1_TEXT">Sort of</button>
+                          <button type="button" class="btnclick" id="btnNotReally" value="Not really" name="Not really" data-qid="Q1" data-question="Is this Page Helpful?" data-importid="QID1_TEXT">Not really</button>
+                      </div>
+                      <div class="survey-questions">
+                          <h3>How can we improve<br>this page? <sup>(optional)</sup></h3>
+                          <textarea id="improve-how" name="Improvements" placeholder="Tell us by typing here." data-question="How can we improve this page" data-qid="Q2" data-importid="QID2_TEXT"></textarea>
+                          <h3>Can you tell us your<br>role in agriculture? <sup>(optional)</sup></h3>
+                          <select name="Agriculture role" id="agriculture-role" data-question="Can you tell us your role in agriculture?" data-qid="Q3" data-importid="QID5_TEXT">
+                              <option selected="selected">---Select---</option>
+                              <option>Farm owner/operator</option>
+                              <option>Seed dealer</option>
+                              <option>Sales rep</option>
+                              <option>Agronomist</option>
+                              <option>Student</option>
+                              <option>Farm advisor</option>
+                              <option>Farm employee</option>
+                              <option>Journalist</option>
+                              <option>Financial investor</option>
+                              <option>Other</option>
+                          </select>
+                          <button id="submit-survey">Submit</button>
+                          <div style="display: none">
+                              <input type="text" name="User IP" id="userId" data-qid="Q8" data-question="IP Address" data-importid="QID8_TEXT">
+                              <input type="text" name="Browser" id="browserId" data-qid="Q4" data-question="User Info" data-importid="QID6_TEXT">
+                              <input type="text" name="Current URL" id="currentUrlId" data-qid="Q7" data-question="Current URL(referrer)" data-importid="QID7_TEXT">
+                              <input type="text" name="Category" id="categoryId" data-qid="Q9" data-question="Category ID" data-importid="QID9_TEXT">
+                              <input type="text" name="GAID" id="GAID" data-qid="Q10" data-question="GA Client ID" data-importid="QID10_TEXT">
+                          </div>
+                      </div>
+                      <div class="survey-thanks">
+                          <h3>Thanks for the feedback.</h3>
+                          <p>We appreciate your participation</p>
+                          <button class="close-button">Close</button>
+                      </div>
+                      <div class="close-button">
+                          <!--?xml version="1.0" encoding="UTF-8" ?-->
+                          <svg viewBox="0 0 61.88 60.78" xmlns="http://www.w3.org/2000/svg">
+                              <g data-name="Layer 2">
+                                  <g data-name="Layer 1">
+                                      <path class="cls-1" d="M57.38,0l4.5,4.42L4.5,60.78,0,56.36Z"></path>
+                                      <path class="cls-1" d="M61.88,56.36l-4.5,4.42L0,4.42,4.5,0Z"></path>
+                                  </g>
+                              </g>
+                          </svg>
+                      </div>
+                  </div>
+              </div>
+            </div>
+<!--           <script src="https://www.syngenta-us.com/survey/js/Qualtrics.js">
+          </script>
+          <script src="https://www.syngenta-us.com/survey/js/survey_new.js">
+          </script> -->
+      </footer>
+      <!-- <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+      <script src="js/site.js"></script> -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
